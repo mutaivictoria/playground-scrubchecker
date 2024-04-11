@@ -1,0 +1,199 @@
+{
+  "id": "7116616221666844803226",
+  "rootId": "7116616221666844803226",
+  "reconciliationId": "972076568",
+  "submitTimeUTC": "2024-03-28T21:33:42Z",
+  "merchantId": "ruidoso001001",
+  "applicationInformation": {
+    "status": "TRANSMITTED",
+    "reasonCode": 100,
+    "applications": [
+      {
+        "name": "ics_auth",
+        "reasonCode": "100",
+        "rCode": "1",
+        "rFlag": "SOK",
+        "reconciliationId": "972076568",
+        "rMessage": "Request was processed successfully.",
+        "returnCode": 1010000
+      },
+      {
+        "name": "ics_bill",
+        "status": "TRANSMITTED",
+        "reasonCode": "100",
+        "rCode": "1",
+        "rFlag": "SOK",
+        "reconciliationId": "972082388Z5SQDUB1WD0Y",
+        "rMessage": "Request was processed successfully.",
+        "returnCode": 1260000
+      }
+    ]
+  },
+  "buyerInformation": {},
+  "clientReferenceInformation": {
+    "code": "BR2024-70-HSS",
+    "applicationName": "Secure Acceptance Web/Mobile",
+    "partner": {}
+  },
+  "consumerAuthenticationInformation": {
+    "strongAuthentication": {}
+  },
+  "deviceInformation": {
+    "ipAddress": "174.45.160.200"
+  },
+  "errorInformation": {
+    "message": "Request was processed successfully."
+  },
+  "installmentInformation": {},
+  "fraudMarkingInformation": {},
+  "merchantInformation": {
+    "merchantDescriptor": {
+      "name": "ruidoso001001"
+    }
+  },
+  "orderInformation": {
+    "billTo": {
+      "firstName": "TROY",
+      "lastName": "ZENTNER",
+      "address1": "882 Canterbury Lane",
+      "locality": "Alpine",
+      "administrativeArea": "UT",
+      "postalCode": "84004",
+      "email": "april@mstarpp.com",
+      "country": "US"
+    },
+    "shipTo": {},
+    "amountDetails": {
+      "totalAmount": "35",
+      "currency": "USD",
+      "taxAmount": "0",
+      "authorizedAmount": "35"
+    },
+    "shippingDetails": {},
+    "invoiceDetails": {},
+    "lineItems": [
+      {
+        "productCode": "default",
+        "taxAmount": 0,
+        "quantity": 1,
+        "unitPrice": 35
+      }
+    ]
+  },
+  "paymentInformation": {
+    "customer": {},
+    "paymentInstrument": {},
+    "instrumentIdentifier": {},
+    "shippingAddress": {},
+    "paymentType": {
+      "name": "vital",
+      "type": "credit card",
+      "method": "AX"
+    },
+    "card": {
+      "suffix": "1012",
+      "prefix": "372243",
+      "expirationMonth": "01",
+      "expirationYear": "2027",
+      "type": "003"
+    },
+    "invoice": {},
+    "accountFeatures": {},
+    "fluidData": {},
+    "issuerInformation": {
+      "country": "US"
+    },
+    "paymentAccountInformation": {
+      "card": {},
+      "features": {},
+      "network": {}
+    }
+  },
+  "paymentInsightsInformation": {
+    "responseInsights": {},
+    "ruleResults": {}
+  },
+  "payoutInformation": {
+    "pushFunds": {},
+    "pullFunds": {}
+  },
+  "payoutOptions": {},
+  "processingInformation": {
+    "paymentSolution": "American Express",
+    "commerceIndicator": "7",
+    "commerceIndicatorLabel": "internet",
+    "authorizationOptions": {
+      "authType": "O",
+      "initiator": {
+        "merchantInitiatedTransaction": {}
+      }
+    },
+    "bankTransferOptions": {},
+    "japanPaymentOptions": {},
+    "fundingOptions": {
+      "firstRecurringPayment": false
+    },
+    "ecommerceIndicator": "7"
+  },
+  "processorInformation": {
+    "processor": {
+      "name": "vital"
+    },
+    "approvalCode": "232167",
+    "responseCode": "00",
+    "avs": {
+      "code": "Y",
+      "codeRaw": "Y"
+    },
+    "cardVerification": {
+      "resultCode": "M"
+    },
+    "achVerification": {
+      "resultCodeRaw": "00"
+    },
+    "electronicVerificationResults": {
+      "email": "N",
+      "emailRaw": "N",
+      "name": "P",
+      "phoneNumber": "P",
+      "street": "Y",
+      "streetRaw": "Y",
+      "postalCode": "Y",
+      "postalCodeRaw": "Y"
+    },
+    "eventStatus": "Transmitted"
+  },
+  "pointOfSaleInformation": {},
+  "riskInformation": {
+    "score": {}
+  },
+  "recipientInformation": {},
+  "senderInformation": {
+    "paymentInformation": {
+      "customer": {},
+      "paymentType": {
+        "name": "vital",
+        "type": "credit card",
+        "method": "AX"
+      },
+      "card": {
+        "suffix": "1012",
+        "expirationMonth": "01",
+        "expirationYear": "2027",
+        "type": "003"
+      },
+      "invoice": {},
+      "accountFeatures": {},
+      "fluidData": {},
+      "issuerInformation": {},
+      "paymentAccountInformation": {}
+    }
+  },
+  "tokenInformation": {},
+  "_links": {
+    "self": {
+      "href": "https://api.cybersource.com/tss/v2/transactions/7116616221666844803226",
+      "method": "GET"
+    }
+  }
+}
